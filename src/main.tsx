@@ -13,7 +13,7 @@ const queryClient = new QueryClient({
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <TonConnectUIProvider manifestUrl={manifestUrl}  actionsConfiguration={{
-    twaReturnUrl: 'https://t.me/WebAppWalletBot/myapp'
+    twaReturnUrl: 'https://t.me/NetlisBot/netlis'
 }}>
     <QueryClientProvider client={queryClient}>
       <App />
